@@ -1,0 +1,10 @@
+var canvas = document.querySelector("#game");
+var width = canvas.width;
+var height = canvas.height;
+var ctx = canvas.getContext("2d");
+var TILE_SIZE = 20;
+var TILES_X = width / TILE_SIZE;
+var TILES_Y = height / TILE_SIZE;
+ctx.fillStyle = "rgb(100, 240,150)";
+ctx.strokeStyle = "rgb(90, 90, 90)";
+ctx.lineWidth = 1;
